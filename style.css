@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:white;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 1.22rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*main section*/
+
+
+.main{
+    background:url(Aswin\ bg.png)no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+}               
+.main h3{
+    color: aliceblue;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(219, 119, 119);
+    width: 130px;
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color:  rgb(219, 119, 119);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color:rgb(212, 91, 91);
+    transition: 0.5s;
+}
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color:transparent;
+    color:rgb(219, 119, 119);
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: rgb(219, 119, 119) ;
+    transition: 0.5s;
+    border: none;
+    color: white;
+}
+.about img{
+    box-shadow: 19px 23px 18px 3px rgba(0,0,0,0.49);
+-webkit-box-shadow: 19px 23px 18px 3px rgba(0,0,0,0.49);
+-moz-box-shadow: 19px 23px 18px 3px rgba(0,0,0,0.49);
+}
+h1{font-size: 3rem;
+font-weight: 900;
+}
+.progress{
+    background-color: rgb(202, 189, 189);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+    
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+    
+    box-shadow: -15px -26px 76px -40px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: -15px -26px 76px -40px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: -15px -26px 76px -40px rgba(0,0,0,0.75) inset;
+}
+.progress p{
+    color: white;
+    padding: 4px;
+}
+
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+@keyframes load1 {
+    0%{
+        width: 0;}
+    100%{
+        width: 95%;
+    }    
+}
+
+@keyframes load2 {
+    0%{
+        width: 0;}
+    100%{
+        width: 90%;
+    }    
+}
+
+@keyframes load3 {
+    0%{
+        width: 0;}
+    100%{
+        width: 70%;
+    }    
+}
+
+@keyframes load4 {
+    0%{
+        width: 0;}
+    100%{
+        width: 65%;
+    }    
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border:1px solid black;
+    background-color: transparent;
+    color:black;
+    border-radius: 4px;
+}
+
+.btn2:hover{
+    background-color: black;
+    color:white;
+    border:none;
+    transition: 0.5s;
+}
+
+.card{
+    border: none;
+    outline: none;
+    box-shadow: -21px 22px 15px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -21px 22px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -21px 22px 15px 0px rgba(0,0,0,0.75);
+
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color:lightgrey;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.control ul li{
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.item{
+    position: relative;
+}
+.item:hover{
+box-shadow: 0px 0px 27px 9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 27px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 27px 9px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+.item:before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 235, 230, 0.479);
+    opacity: 0;
+    position: absolute;
+}
+.item:hover:before{
+    opacity: 0.5;
+    transition: 0.5s;
+}
